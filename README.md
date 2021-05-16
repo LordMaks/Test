@@ -8,4 +8,4 @@
 
 ### result
 
-![result](res.png)
+![result](docx/res.bmp)
