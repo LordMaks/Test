@@ -15,17 +15,19 @@ namespace UnitTest1
 		
 		TEST_METHOD(TestMethod1)
 		{
-			vector<int> Lol{ 1,2,3,4,5,6 };
-			Assert::AreEqual(arrays::sum(Lol),21);
-			vector<double> quite{ 3.3, 5.7, 1.2, 7.8 };
-			Assert::AreEqual<double>(arrays::sum(quite), 18);
+			vector<int> Swp{ 3, 10 };
+			arrays::swap(Swp[0], Swp[1]);
+			Assert::AreEqual(Swp[0], 10);
+			Assert::AreEqual(Swp[1], 3);
 		}
+
 
 		TEST_METHOD(TestMethod2)
 		{
-			vector<int> Lol{ 5,7,8,9,4 };
-			Assert::AreEqual<string>(arrays::to_str(Lol),"[5, 7, 8, 9, 4]");
-		
+			vector<char> Swp{ 'a', 'k' };
+			arrays::swap(Swp[0], Swp[1]);
+			Assert::AreEqual<char>(Swp[0], 'k');
+			Assert::AreEqual<char>(Swp[1], 'a');
 		}
 	};
 }
