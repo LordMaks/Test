@@ -1,6 +1,6 @@
-# Evsiukov Eugene
+# Kovalenko Maxim
 
-## 5 variant
+## 7 variant
 
 ### Task
 
